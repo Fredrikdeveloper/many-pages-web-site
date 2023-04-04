@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Poppins:ital,wght@0,500;0,600;0,700;1,300&family=Roboto:wght@700&family=Source+Serif+Pro:ital,wght@1,600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} body {
+    background-color: black !important;
+}
+ h1 {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 112px !important;
+line-height: 168px;
+color: #FFFFFF;
+text-transform: uppercase;
+} h1 > span {
+    color: palevioletred;
+    text-transform: uppercase;
+}
+ h2 {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 75px !important;
+line-height: 112px;
+color: #FFFFFF;
+}
+ .text-p-gray {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+  
+    color: #707070;
+} .text-p-white {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 42px;
+color: #FFFFFF;
+} p {
+    margin: 0 !important; 
+} 
+
+.line {
+    width: 100%;
+    border-bottom: 1.5px solid #828282;
+}
+
+
+
+
+
+
+
+header {
+    width: 100%;
+} .header-menu {
+    display: flex;
+    justify-content: center;
+} .header-text {
+    padding-top: 142px;
+} .header-text1 {
+    display: flex;
+   justify-content: center;
+} .header-text2 {
+    display: flex;
+    justify-content: center;
+} .header-buttons {
+    gap: 26.5px;
+}
+
+/* section1 */
+.section1 {
+    padding-top: 168px;
+}
+.section1-text-main {
+    width: 100%;
+   
+} 
+.section2 {
+    padding-top: 162px;
+} .section2-menu {   
+    display: flex;
+    justify-content: center;
+} .section2-text > p {
+ padding-bottom: 34.5px;
+ text-align: center;
+} .section2-text > h2 {
+   text-align: center;
+}  .section2-text > h3 {
+    text-align: center;
+ } .section2-text-button-menu {
+    display: flex;
+    justify-content: center;
+ }
+ .section3 {
+    padding-top: 182px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .section3-img-menu > img {
+    height: 715px;
+ }
+
+ /*  */
+ .section4-img-menu1 > img {
+    height: 666px;
+ }
+ .section4-img-menu2 > img {
+    height: 666px;
+ }
+ .section4-button-menu {
+    display: flex;
+   justify-content: center;
+ }
+
+
+
+ /* section7 */
+ .section7 {
+    padding-top: 188px;
+ } .section7-img-menu {
+    background: url(./section7-img.svg) center center/cover;
+    height: 80vh;
+ }
+/*  */
+.section8 {
+    padding-top: 200px;
+}
+
+ /* all footer */
+ .footer {
+    padding-top: 183px;
+ } .footer-menu {
+    display: flex;
+    height: 105px;
+    align-items: center;
+    justify-content: space-between;
+ }  .footer-menu > ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 46px;
+ }
+.card-pricing-2 {
+    background: #131313;
+    border: 1px solid #707070;
+    border-radius: 12px;
+    height: 989px;
+    width: 496px;
+} .card-pricing-1 {
+    background: #131313;
+    border: 1px solid #707070;
+    border-radius: 12px;
+    height: 989px;
+    width: 496px;
+} .card-pricing-3 {
+    background: #3C82F4;
+    border: none;
+    border-radius: 12px;
+    height: 989px;
+    width: 496px;
+} .card-body-pricing {
+    padding: 10px 34.5px;
+} .section1-pricing-button-menu-2 > button {
+    color: #FFFFFF;
+    padding: 20px 110px;
+    border-radius: 12px;
+} .section1-pricing-button-menu > button {
+    background-color: #FFFFFF ;
+    color: #3C82F4;
+    padding: 20px 110px;
+    border-radius: 12px;
+}
+
+
+
+/* blog */
+.card-blog {
+    border: 1px solid #707070;
+    height: 243px;
+    width: 402px;
+    border-radius: 10px;
+} .card-body-blog {
+    padding: 10px 15px;
+} .button-blog > button {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #4A7DE3;
+    background: #102142;
+    padding: 9px 14px 6px 19px;
+    border-radius: 10px;
+} .button-blog {
+    display: flex;
+    justify-content: end;
+    padding: 2px 2px;
+} /* login */
+.form-body > input {
+ background-color: black;
+ border-top: none;
+ border-left: none;
+ border-right: none;
+ width: 478px;
+} .login-buttons {
+   display: flex;
+   justify-content: center;
+   gap: 78px;
+   padding-top: 200px;
+} .login-buttons > a  {
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 32px;
+color: #FFFFFF;
+padding: 17px 40px;
+} .login-buttons > a > i {
+    color: #4267B2;
+} .form-login {
+   width: 100%;
+} .login-href-two > i {
+  
+}
+.form-body {   
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+} .form-body > input:focus {
+    color: white;
+    padding: 20px 0px;
+    font-size: 20px;
+   border-color: red;
+} .form-body > button {
+    padding: 15px 218px;
+}
+ .footer-login {
+   padding-top: 100px;
+} .form-login > h2 {
+    padding-top: 130px;
+}
+
+
+
+
+
+
